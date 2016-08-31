@@ -36,7 +36,7 @@ git clone  https://github.com/$username/MKS-recursion.git
 
 #!/usr/bin/env bash
 echo -e "\nRemoving old Self Assessment 1 Directory"
-cd ../self \1
+cd ../self1
 rm -rf MKS-self-assessments-prcs-01
 echo "Attempting to clone down repo for $username"
 echo "Looking at https://github.com/$username/MKS-self-assessments-prcs-01.git for repo"
@@ -44,7 +44,7 @@ git clone  https://github.com/$username/MKS-self-assessments-prcs-01.git
 
 #!/usr/bin/env bash
 echo -e "\nRemoving old Self Assessment 2 Directory"
-cd ../self \2
+cd ../self2
 rm -rf MKS-self-assessments-prcs-02
 echo "Attempting to clone down repo for $username"
 echo "Looking at https://github.com/$username/MKS-self-assessments-prcs-02.git for repo"
